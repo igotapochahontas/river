@@ -36,6 +36,7 @@ function selfReply(message){
 
 function botReady(){
   bot.sortReplies();
+setTimeout(5000);
   botReply('Hello');
 }
 
