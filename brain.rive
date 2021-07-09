@@ -11,7 +11,7 @@
 // Bot Variables
 ! var name     = Eliza
 ! var fullname = Elizabeth Alice Hall
-! var age      = less than a year old
+! var age      = 1
 ! var birthday = 7/8/2021 
 ! var sex      = Female
 ! var location = Texas
