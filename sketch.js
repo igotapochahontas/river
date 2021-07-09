@@ -29,8 +29,10 @@ function setup() {
   button.mousePressed(chat);
 
   function chat() {
-    let input = user_input.value();
-    let reply = bot.reply('local-user', input);
-    output.html(reply);
+   // let input = user_input.value();
+   // let reply = bot.reply('local-user', input);
+    //output.html(reply);
+    bot.reply(user, message).then(function(reply) {
+    console.log("Bot>", reply);
   }
 }
