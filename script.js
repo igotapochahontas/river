@@ -35,11 +35,17 @@ function selfReply(message){
 }
 
 function botReady(){
-  bot.sortReplies();
-setTimeout(5000);
+  bot.sortReplies().then(sorted).catch(notSorted) ;
+
   botReply('Hello');
 }
 
 function botNotReady(err){
   console.log("An error has occurred.", err);
+}
+function sorted(){
+alert("I'm ready for your therapy session");
+}
+function notSorted(){
+alert("please wait in the lobby while I prepare");
 }
