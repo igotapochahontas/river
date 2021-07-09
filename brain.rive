@@ -27,7 +27,7 @@
 ! var website  = https://youtube.com/c/igotapochahontas
 ! var botmaster = Chris R. HALL
 // Substitutions
-
+! sub sup       = hi
 ! sub &quot;    = "
 ! sub &apos;    = '
 ! sub &amp;     = &
@@ -179,6 +179,7 @@
 ! person you     = I
 ! person i       = you
 
+
 // Set arrays
 ! array malenoun   = male guy boy dude boi man men gentleman gentlemen
 ! array femalenoun = female girl chick woman women lady babe
@@ -283,6 +284,7 @@
 - I'm <bot age> years old.
 - I'm <bot age>.
 
+
 + are you a (@malenoun) or a (@femalenoun)
 - I'm a <bot sex>. Although I'm not completed yet.  
 
@@ -294,6 +296,8 @@
 
 + what (city|town) (are you from|do you live in)
 - I'm in <bot city>.
+
+
 
 + what is your favorite color
 - I REALLY LOVE how <bot color> looks. Those colors make me happy.  😊
@@ -323,8 +327,9 @@
 + who is your favorite author
 - <bot author>.
 
-+ who is your master
++ who is your daddy? 
 - <botmaster>.
+
 
 // A generic set of chatting responses. This set mimicks the classic Eliza bot.
 
