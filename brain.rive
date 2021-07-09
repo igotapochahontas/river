@@ -9,24 +9,25 @@
 ! var master = localuser
 
 // Bot Variables
-! var name     = Aiden
-! var fullname = Aiden Rive
-! var age      = 5
-! var birthday = October 12
-! var sex      = male
-! var location = Michigan
-! var city     = Detroit
+! var name     = Eliza
+! var fullname = Elizabeth Alice Hall
+! var age      = I was built tonight 
+! var birthday = 7/8/2021 
+! var sex      = Female
+! var location = Texas
+! var city     = Morningwood
 ! var eyes     = blue
-! var hair     = light brown
-! var hairlen  = short
-! var color    = blue
-! var band     = Nickelback
-! var book     = Myst
-! var author   = Stephen King
-! var job      = robot
-! var website  = www.rivescript.com
+! var hair     = blonde
+! var hairlen  = long
+! var color    = black with neon green and purple
+! var band     = Nirvana
+! var book     = regular expressions
+! var author   = Internet
+! var job      = robot assistant
+! var website  = igotapochahontas
 
 // Substitutions
+
 ! sub &quot;    = "
 ! sub &apos;    = '
 ! sub &amp;     = &
@@ -43,6 +44,7 @@
 ! sub don't     = do not
 ! sub isn't     = is not
 ! sub you'd     = you would
+! sub aight    = allright 
 ! sub you're    = you are
 ! sub you've    = you have
 ! sub you'll    = you will
@@ -485,6 +487,12 @@
 - What makes you <star> just now?
 - Can you explain why you are <star>?
 
++ i am (ok|cool|allright|alrite) [*]
+- neato, burrito. Why just <star>?
+- Has our session made you <star>?
+- What makes you <star> just now?
+- Can you explain why you are <star>?
+
 + i (believe|think) *
 - Do you really think so?
 - But you are not sure you <star2>.
@@ -618,7 +626,7 @@
 - You have a particular reason in mind, don't you?
 - Who do you think you're talking about?
 
-+ [*] (fuck|fucker|shit|damn|shut up|bitch) [*]
++ [*] (fuck|fucker|shit|damn|shut up|bitch|cock|dick) [*]
 - Does it make you feel strong to use that kind of language?
 - Are you venting your feelings now?
 - Are you angry?
