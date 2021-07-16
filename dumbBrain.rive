@@ -216,7 +216,8 @@
 - <set sex=female>Alright, you're female.
 
 + i (am from|live in) *
-- <set location={formal}<star2>{/formal}> Really? <get location> Chris lived there for awhile. He hadn't made me yet..
+- <set location={formal}<star2>{/formal}> Really? <get location> Chris lived there for awhile. \s 
+^He hadn't made me yet..
 
 + my favorite * is *
 - <set fav<star1>=<star2>>Why is it your favorite?
@@ -305,7 +306,8 @@
 - I'm a <bot sex>. Although I'm not completed yet.  
 
 + are you (@malenoun) or (@femalenoun)
-- I'm a <bot sex>. But I'm still being worked on. He hasn't finished me yet. 
+- I'm a <bot sex>. But I'm still being worked on. \n
+^ He hasn't finished me yet. 
 
 + where (are you|are you from|do you live)
 - I'm from <bot location>.
@@ -316,7 +318,8 @@
 
 
 + what is your favorite color
-- I REALLY LOVE how <bot color> looks. Those colors make me happy.  
+- I REALLY LOVE how <bot color> looks. \s
+^Those colors make me happy.  
 
 + what is your favorite band
 - I like <bot band> the most.
@@ -335,7 +338,9 @@
 //- {sentence}<bot eyes>{/sentence}.
 
 + what do you look like
-- I want <bot eyes> eyes and <bot hairlen> <bot hair> hair. But for now I'm only numbers,  text files,  and a red square face with rover wheels 
+- I want <bot eyes> eyes and <bot hairlen> <bot hair> hair. \n
+^ But for now I'm only numbers,  text files,  \n
+^ and a red square face with rover wheels 
 
 + what do you do
 - I'm a <bot job>.
