@@ -49,5 +49,7 @@ function sorted(){
 alert("I'm ready for your therapy session");
 }
 function notSorted(){
-alert("please wait in the lobby while I prepare");
+console.log("please wait in the lobby while I prepare");
+aler("please wait in the lobby while I prepare");
+
 }
