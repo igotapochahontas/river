@@ -9,7 +9,8 @@ const input_box = document.querySelector('input');
 //];
 const brains = [
   //'brain.rive'
-'macro.rive'
+//'macro.rive'
+  'dumbBrain.rive'
 ];
 
 
