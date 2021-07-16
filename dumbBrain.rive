@@ -277,11 +277,7 @@
 - no problem
 - no worries
 
-+ *
-- Sorry did not get what you said
-- I am afraid that i can not understand you
-- I did not get it
-- Sorry can you please elaborate that for me
+
 // Tell the user stuff about ourself.
 
 + <bot name>
@@ -350,3 +346,8 @@
 
 + who is your daddy? 
 - <bot master>.
++ *
+- Sorry did not get what you said
+- I am afraid that i can not understand you
+- I did not get it
+- Sorry can you please elaborate that for me
