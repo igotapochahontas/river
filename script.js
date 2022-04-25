@@ -43,13 +43,13 @@ function botReady(){
 }
 
 function botNotReady(err){
-  console.log("An error has occurred.", err);
+  console.log("A grue has:", err);
 }
 function sorted(){
 alert("I'm ready for your therapy session");
 }
 function notSorted(){
-console.log("please wait in the lobby while I prepare");
-aler("please wait in the lobby while I prepare");
+console.log("please wait in the lobby while I sort");
+alert("please wait in the lobby while I prepare");
 
 }
